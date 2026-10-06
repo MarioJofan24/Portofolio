@@ -62,7 +62,7 @@ export const GET: APIRoute = async () => {
 > ${home.description}
 
 ## Overview
-${home.name} is a ${home.jobTitle || 'Lead Software Engineer'}${home.location ? ` based in ${home.location}` : ''}. ${home.description}
+${home.name} is a ${home.jobTitle || 'Data Engineer'}${home.location ? ` based in ${home.location}` : ''}. ${home.description}
 
 ## Key Information
 ${home.location ? `- **Location:** ${home.location}` : ''}
