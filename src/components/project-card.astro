@@ -111,6 +111,7 @@ const platformIconMap: Record<string, string> = {
     </div>
 
     <!-- View Project Button -->
+    {project.link && project.link !== '#' && (
     <a
       href={project.link}
       target="_blank"
@@ -119,6 +120,7 @@ const platformIconMap: Record<string, string> = {
       View Project
       <Icon name="mdi:arrow-right" class="w-3.5 h-3.5" />
     </a>
+    )}
   </div>
 </div>
 

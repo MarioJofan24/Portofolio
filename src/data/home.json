@@ -1,33 +1,31 @@
 {
-  "name": "John Doe",
+  "name": "Mario Arsyad",
   "photoUrl": "favicon.svg",
-  "location": "City, Country",
-  "availability": "Available for hire",
-  "description": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-  "descriptionHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-accent font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-accent font-bold'>efficient</span>, <span class='text-accent font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe | Lead Software Engineer",
-  "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
-
+  "location": "South Jakarta, Indonesia",
+  "availability": "Open to opportunities",
+  "description": "Data Engineer at IBM Consulting Indonesia with 3+ years building enterprise Business Intelligence solutions for FMCG and supply chain clients. I specialize in Power BI semantic modeling, advanced DAX, medallion architecture (Bronze-Silver-Gold) and ETL pipeline design.",
+  "descriptionHtml": "Data Engineer at IBM Consulting Indonesia with 3+ years building enterprise <span class='text-accent font-bold'>Business Intelligence</span> solutions for FMCG and supply chain clients. I specialize in <span class='text-accent font-bold'>Power BI semantic modeling</span>, advanced <span class='text-accent font-bold'>DAX</span>, <span class='text-accent font-bold'>medallion architecture</span> and ETL pipeline design.",
+  "webpageTitle": "Mario Arsyad | Data Engineer & BI Specialist",
+  "resumeUrl": "/Resume-Mario-Arsyad.pdf",
   "_seo_comment": "SEO fields — update these along with your personal info for best search engine visibility.",
-  "jobTitle": "Lead Software Engineer",
-  "keywords": "John Doe, software engineer, Flutter, FastAPI, mobile development, portfolio",
+  "jobTitle": "Data Engineer | Business Intelligence Specialist",
+  "keywords": "Mario Arsyad, data engineer, business intelligence, Power BI, DAX, SQL Server, medallion architecture, ETL, Tableau, Jakarta, Indonesia, portfolio",
   "siteUrl": "https://your-domain.com",
   "lang": "en",
   "twitterHandle": "",
   "ogImageUrl": "/placeholder.jpeg",
-
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/MarioJofan24",
       "icon": "mdi:github",
       "label": "View Profile",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://linkedin.com/in/mario-arsyad",
       "icon": "mdi:linkedin",
       "label": "Connect",
       "showInContact": true
@@ -48,17 +46,17 @@
     },
     {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:marioarsyad24@gmail.com",
       "icon": "mdi:email",
       "label": "Send Email",
       "showInContact": true
     },
     {
       "name": "WhatsApp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "#",
       "icon": "mdi:whatsapp",
       "label": "Send Message",
-      "showInContact": true
+      "showInContact": false
     },
     {
       "name": "Facebook",
@@ -72,7 +70,7 @@
       "url": "#",
       "icon": "mdi:facebook-messenger",
       "label": "Send Message",
-      "showInContact": true
+      "showInContact": false
     },
     {
       "name": "Instagram",

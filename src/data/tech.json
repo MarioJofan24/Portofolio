@@ -1,33 +1,83 @@
 {
   "categories": [
     {
-      "title": "Frontend",
+      "title": "BI & Visualization",
       "skills": [
-        { "name": "React", "level": 3, "icon": "skill-icons:react-dark" },
-        { "name": "Next.js", "level": 2, "icon": "skill-icons:nextjs-dark" },
-        { "name": "TypeScript", "level": 3, "icon": "skill-icons:typescript" },
-        { "name": "JavaScript", "level": 3, "icon": "skill-icons:javascript" },
-        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
-        { "name": "HTML", "level": 3, "icon": "skill-icons:html" },
-        { "name": "CSS", "level": 3, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 2, "icon": "skill-icons:tailwindcss-dark" }
+        {
+          "name": "Power BI",
+          "level": 3,
+          "icon": "mdi:chart-box"
+        },
+        {
+          "name": "DAX",
+          "level": 3,
+          "icon": "mdi:function-variant"
+        },
+        {
+          "name": "Tableau",
+          "level": 2,
+          "icon": "mdi:chart-areaspline"
+        },
+        {
+          "name": "AWS QuickSight",
+          "level": 1,
+          "icon": "mdi:chart-bar"
+        }
       ]
     },
     {
-      "title": "Backend & Tools",
+      "title": "Data Engineering",
       "skills": [
-        { "name": "Node.js", "level": 3, "icon": "skill-icons:nodejs-dark" },
-        { "name": "Express", "level": 2, "icon": "skill-icons:expressjs-dark" },
-        { "name": "Docker", "level": 2, "icon": "skill-icons:docker" },
-        { "name": "Git", "level": 3, "icon": "skill-icons:git" }
+        {
+          "name": "SQL Server",
+          "level": 2,
+          "icon": "devicon:microsoftsqlserver"
+        },
+        {
+          "name": "Python",
+          "level": 2,
+          "icon": "skill-icons:python-dark"
+        },
+        {
+          "name": "Airflow",
+          "level": 1,
+          "icon": "devicon:apacheairflow"
+        },
+        {
+          "name": "Medallion / ETL",
+          "level": 3,
+          "icon": "mdi:layers-triple"
+        },
+        {
+          "name": "Data Modeling",
+          "level": 3,
+          "icon": "mdi:database-cog"
+        }
       ]
     },
     {
-      "title": "Database",
+      "title": "Cloud & AI",
       "skills": [
-        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" },
-        { "name": "MongoDB", "level": 2, "icon": "skill-icons:mongodb" },
-        { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" }
+        {
+          "name": "AWS",
+          "level": 1,
+          "icon": "skill-icons:aws-dark"
+        },
+        {
+          "name": "Google Cloud",
+          "level": 1,
+          "icon": "devicon:googlecloud"
+        },
+        {
+          "name": "MCP / Claude Code",
+          "level": 2,
+          "icon": "mdi:robot-outline"
+        },
+        {
+          "name": "IBM watsonx",
+          "level": 1,
+          "icon": "mdi:brain"
+        }
       ]
     }
   ]

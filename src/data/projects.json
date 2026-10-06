@@ -1,20 +1,59 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
-    "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "title": "Data Lake & Analytics - Kapal Api Group",
+    "description": "Designed and implemented end-to-end analytical data models within the enterprise Data Lake, and delivered 6 operational reports and 2 executive dashboards in Power BI. (Mar 2026 - Present)",
+    "images": [],
+    "tech": [
+      "Power BI",
+      "Data Lake",
+      "Data Modeling"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "link": "#",
+    "category": "Professional Project"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
-    "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
+    "title": "Wholesaler Report - Coca-Cola Europacific Partners",
+    "description": "Star-schema data model for the Wholesaler Report in Power BI. (Feb - Mar 2023)",
+    "images": [],
+    "tech": [
+      "Power BI",
+      "Star Schema"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "link": "#",
+    "category": "Professional Project"
+  },
+  {
+    "title": "Weekly RED ROAM Sales Report - Coca-Cola Europacific Partners",
+    "description": "Data model and 10 Tableau reports across MT and MIC categories, each aligned to user requirements. (Sep 2022 - Jan 2023)",
+    "images": [],
+    "tech": [
+      "Tableau",
+      "Data Modeling"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "link": "#",
+    "category": "Professional Project"
+  },
+  {
+    "title": "Data Source Migration - Smartfren",
+    "description": "Migrated the data source from MTRASS to MFR database, keeping Tableau Server running and verifying every workbook against the new source. (Mar - Apr 2023)",
+    "images": [],
+    "tech": [
+      "Tableau Server",
+      "Migration"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "link": "#",
+    "category": "Professional Project"
   }
 ]

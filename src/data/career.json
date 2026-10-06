@@ -1,27 +1,67 @@
 [
   {
-    "company": "Demo Company",
-    "role": "Lead Software Engineer",
-    "period": "Oct 2025 - Present",
+    "company": "IBM Consulting Indonesia",
+    "role": "Data Engineer",
+    "period": "May 2025 - Present",
     "type": "Full time job",
-    "description": "Leading cross-platform application development using Flutter and Python FastAPI. Focused on scalable system design, API integrations, and team leadership.",
-    "skills": ["Team Leadership", "System Architecture", "Flutter", "FastAPI"]
+    "description": "Architected and delivered 5+ enterprise Power BI dashboards for FMCG clients (Sales Performance, Operations/Supply Chain) on star-schema models in SQL Server. Designed the medallion (Bronze-Silver-Gold) foundation, built time intelligence and Top N DAX, implemented multi-tier dynamic RLS (National, Regional, Branch), and integrated AI-assisted tooling (MCP, Claude Code) into BI delivery.",
+    "skills": [
+      "Power BI",
+      "DAX",
+      "Medallion Architecture",
+      "SQL Server",
+      "RLS"
+    ]
   },
   {
-    "company": "Demo Solutions Ltd",
-    "url": "https://example.com",
-    "role": "Full-stack Developer",
-    "period": "Sep 2023 - Sep 2025",
+    "company": "Niaga Prima Paramitra",
+    "role": "Data Analytics Consultant",
+    "period": "Feb 2024 - May 2025",
     "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
+    "description": "Led end-to-end BI delivery for Coca-Cola Europacific Partners: Sales Monitoring, Marketing Campaign Performance and Executive KPI dashboards. Built multi-source data models with ETL covering cleansing, deduplication and transformation, and owned the lifecycle from requirement gathering to UAT.",
+    "skills": [
+      "Power BI",
+      "Tableau",
+      "SQL Server",
+      "ETL",
+      "Data Modeling"
+    ]
   },
   {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
+    "company": "Niaga Prima Paramitra",
+    "role": "Junior Data Visualization Consultant",
+    "period": "Jul 2022 - Feb 2024",
+    "type": "Full time job",
+    "description": "Developed sales and marketing dashboards for enterprise FMCG clients with Tableau and Power BI on SQL Server, including data cleansing, normalization and validation. Promoted to Data Analytics Consultant within 18 months.",
+    "skills": [
+      "Tableau",
+      "Power BI",
+      "SQL Server",
+      "Data Preparation"
+    ]
+  },
+  {
+    "company": "PT. Klabat Tekno Perkasa",
+    "role": "Frontend Web Developer & UI/UX Designer",
+    "period": "Jan 2021 - Dec 2021",
+    "type": "Internship",
+    "description": "Kampus Merdeka program. Built responsive web frontends with HTML/CSS, Next.js and Tailwind CSS, and prototyped mobile and web UI/UX in Figma.",
+    "skills": [
+      "Next.js",
+      "Tailwind CSS",
+      "Figma",
+      "UI/UX"
+    ]
+  },
+  {
+    "company": "Universitas Klabat",
+    "role": "Bachelor of Computer Science - Information System",
+    "period": "2018 - 2022",
     "type": "Student",
-    "description": "Graduated with honors. Focused on data structures, algorithm optimization, software architecture, and database systems.",
-    "skills": ["Data Structures", "Algorithms", "OOP", "DBMS"]
+    "description": "Bank of Indonesia Scholarship Awardee (GenBI), 2021 - 2022.",
+    "skills": [
+      "Information Systems",
+      "Databases"
+    ]
   }
 ]
