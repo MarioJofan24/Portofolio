@@ -1,0 +1,69 @@
+---
+import { Icon } from 'astro-icon/components';
+import certData from '../data/certifications.json';
+---
+
+<section id="certifications" class="section-container overflow-hidden">
+  <div class="container mx-auto">
+    <div class="mb-16 cert-header">
+      <h2 class="text-3xl md:text-4xl font-heading font-bold text-maintext mb-2 flex items-center gap-4">
+        <span class="text-accent">/</span> Certifications
+      </h2>
+      <p class="text-subtext font-body text-sm max-w-md">
+        Professional certifications in data engineering, business intelligence, and AI.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      {certData.map((group) => (
+        <div class="cert-card bg-accent/5 border border-accent/10 rounded-2xl p-6 flex flex-col gap-4 hover:border-accent/40 transition-colors duration-500">
+          <div class="flex items-center gap-3 text-accent">
+            <Icon name={group.icon} class="w-6 h-6" />
+            <h3 class="font-heading font-bold text-maintext text-lg">{group.title}</h3>
+          </div>
+          <ul class="flex flex-col gap-4">
+            {group.items.map((item) => (
+              <li class="flex flex-col gap-0.5 border-l-2 border-accent/30 pl-3">
+                <span class="font-body text-sm font-semibold text-maintext">{item.name}</span>
+                <span class="font-mono text-xs text-subtext">{item.issuer} · {item.date}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .cert-header,
+  .cert-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .cert-header.reveal,
+  .cert-card.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<script>
+  const initCertReveal = () => {
+    const targets = document.querySelectorAll('.cert-header, .cert-card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    targets.forEach((t) => observer.observe(t));
+  };
+
+  initCertReveal();
+  document.addEventListener('astro:page-load', initCertReveal);
+</script>
