@@ -1,4 +1,5 @@
 ---
+import { withBase } from '../utils/url';
 import '../styles/global.css'
 import ThemeScript from '../components/theme-script.astro';
 
@@ -35,7 +36,7 @@ const canonicalUrl = resolvedSiteUrl
     ? resolvedSiteUrl.replace(/\/$/, '') + '/' 
     : Astro.url.href;
 const ogImage = ogImageUrl
-    ? new URL(ogImageUrl, resolvedSiteUrl || Astro.url.origin).href
+    ? new URL(withBase(ogImageUrl), resolvedSiteUrl || Astro.url.origin).href
     : '';
 
 // JSON-LD Structured Data (WebSite + Person)
@@ -77,9 +78,9 @@ const ogLocale = lang.includes('_') ? lang : `${lang}_${lang.toUpperCase()}`;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
+    <link rel="icon" type="image/x-icon" href={withBase("/favicon.ico")} />
+    <link rel="apple-touch-icon" sizes="180x180" href={withBase("/apple-touch-icon.png")} />
     <title>{title}</title>
 
     <!-- PRIMARY META -->

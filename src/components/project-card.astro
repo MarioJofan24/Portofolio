@@ -2,6 +2,7 @@
 import { Icon } from 'astro-icon/components';
 const { project } = Astro.props;
 import { Image } from 'astro:assets';
+import { withBase } from '../utils/url';
 import { resolveAssetImage } from '../utils/images';
 
 // Map through the array of image strings from project JSON
@@ -56,7 +57,7 @@ const platformIconMap: Record<string, string> = {
           ))
         ) : (
           <img
-            src="/placeholder.jpeg"
+            src={withBase("/placeholder.jpeg")}
             alt={`${project.title} placeholder`}
             class="absolute inset-0 w-full h-full object-cover transition-all duration-1000 group-hover:scale-110"
           />

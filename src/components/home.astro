@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon/components';
 import localData from '../data/home.json';
+import { withBase } from '../utils/url';
 import { resolveAssetImage } from '../utils/images';
 import { Image } from 'astro:assets';
 
@@ -60,10 +61,10 @@ const profileImage = await resolveAssetImage(photoUrl);
         />
       ) : (
         <img
-          src={photoUrl || "/placeholder.jpeg"}
+          src={withBase(photoUrl || "/placeholder.jpeg")}
           alt={name}
           class="w-full h-full object-cover scale-110"
-          onerror="this.onerror=null;this.src='/placeholder.jpeg';"
+          onerror={`this.onerror=null;this.src='${withBase("/placeholder.jpeg")}';`}
           loading="eager"
         />
       )}
@@ -113,7 +114,7 @@ const profileImage = await resolveAssetImage(photoUrl);
 
   <div class="mt-8 mb-4 reveal-content" style="animation-delay: 400ms;">
     <a 
-      href={resumeUrl} 
+      href={withBase(resumeUrl)} 
       target="_blank" 
       rel="noopener noreferrer"
       class="group relative inline-flex items-center justify-center px-10 py-2 bg-white/5 border border-white/10 rounded-full text-maintext font-body transition-all duration-300
