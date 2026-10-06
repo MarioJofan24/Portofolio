@@ -168,3 +168,9 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Native color scheme per theme: stops mobile browsers (Samsung Internet,
+   Chrome auto-dark, MIUI) from re-darkening the page, and themes form
+   controls/scrollbars correctly. */
+[data-theme$="-dark"] { color-scheme: dark; }
+[data-theme$="-light"] { color-scheme: light; }

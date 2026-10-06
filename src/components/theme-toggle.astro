@@ -20,9 +20,12 @@
     transition: background-color 0.2s ease;
   }
 
-  #theme-toggle:hover {
-    background-color: var(--color-accent);
-    color: var(--color-background);
+  /* Hover only on devices that truly hover; avoids "stuck" highlight after a tap on mobile */
+  @media (hover: hover) {
+    #theme-toggle:hover {
+      background-color: var(--color-accent);
+      color: var(--color-background);
+    }
   }
 
   :global([data-theme$="-dark"]) .sun-icon {

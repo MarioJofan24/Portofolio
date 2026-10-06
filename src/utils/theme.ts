@@ -5,7 +5,8 @@ export const THEME_META_ID = 'theme-color-meta';
 export function updateThemeColorMeta(isDark: boolean): void {
   const meta = document.getElementById(THEME_META_ID);
   if (meta) {
-    meta.setAttribute('content', isDark ? '#000000' : '#FFFFFF');
+    const bg = getComputedStyle(document.documentElement).getPropertyValue('--color-background').trim();
+    meta.setAttribute('content', bg || (isDark ? '#000000' : '#FFFFFF'));
   }
 }
 

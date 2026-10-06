@@ -24,10 +24,17 @@ const { baseTheme = SITE_CONFIG.baseTheme } = Astro.props;
     document.documentElement.setAttribute('data-theme', activeTheme);
 
     // mobile status bar mode
-    const isDark = activeTheme.endsWith('-dark');
     const meta = document.getElementById('theme-color-meta');
-    if (meta) {
-      meta.setAttribute('content', isDark ? '#000000' : '#FFFFFF');
+    const syncMeta = () => {
+      if (!meta) return;
+      const bg = getComputedStyle(document.documentElement).getPropertyValue('--color-background').trim();
+      meta.setAttribute('content', bg || (document.documentElement.getAttribute('data-theme').endsWith('-dark') ? '#000000' : '#FFFFFF'));
+    };
+    // CSS variables are available once the stylesheet is parsed
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', syncMeta, { once: true });
+    } else {
+      syncMeta();
     }
 
     // listen to system theme changes, if the user hasn't explicitly set a preference
@@ -38,9 +45,7 @@ const { baseTheme = SITE_CONFIG.baseTheme } = Astro.props;
         if (!currentSaved || !currentSaved.startsWith(baseTheme)) {
           const newTheme = e.matches ? `${baseTheme}-dark` : `${baseTheme}-light`;
           document.documentElement.setAttribute('data-theme', newTheme);
-          if (meta) {
-            meta.setAttribute('content', e.matches ? '#000000' : '#FFFFFF');
-          }
+          syncMeta();
         }
       };
 
