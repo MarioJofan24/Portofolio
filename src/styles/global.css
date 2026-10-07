@@ -78,19 +78,21 @@
   /* Modern Innovator - Dark */
   [data-theme="innovator-dark"] {
     --color-background: #0B0F0E;
-    --color-accent: #BEF264;
+    --color-accent: #7DD3FC;
+    --accent-rgb: 125, 211, 252;
     --color-maintext: #FFFFFF;
     --color-subtext: #c4c3c3;
-    --color-textrain: #567b6c;
+    --color-textrain: #4f6b85;
   }
 
   /* Modern Innovator - Light */
   [data-theme="innovator-light"] {
-    --color-background: #F0FDF4;
-    --color-accent: #06aa73;
-    --color-maintext: #064E3B;
+    --color-background: #F0F9FF;
+    --color-accent: #0369A1;
+    --accent-rgb: 3, 105, 161;
+    --color-maintext: #0C4A6E;
     --color-subtext: #4B5563;
-    --color-textrain: #7fbc9e;
+    --color-textrain: #93c5e8;
   }
 
   /* Executive Minimalist - Dark */
