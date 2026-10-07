@@ -14,6 +14,12 @@ permissions:
   pages: write
   id-token: write
 
+# Run deployments one at a time, in push order, so an older run can never
+# finish after (and overwrite) a newer one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
