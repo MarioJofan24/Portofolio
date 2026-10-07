@@ -31,10 +31,7 @@ import localData from '../data/home.json';
                 name={social.icon} 
                 class="w-12 h-12 text-accent mb-4 mx-auto group-hover:scale-110 transition-transform" 
               />
-              <h3 class="text-maintext font-bold mb-1">{social.name}</h3>
-              <p class="text-subtext text-xs truncate px-2 mb-3">
-                {social.url.replace('https://', '').replace('mailto:', '').replace('wa.me/', '+')}
-              </p>
+              <h3 class="text-maintext font-bold mb-3">{social.name}</h3>
               <span class="inline-flex items-center gap-1 text-[10px] uppercase tracking-widest text-accent/70 font-mono border border-accent/20 rounded-full px-2.5 py-0.5 group-hover:border-accent/40 group-hover:text-accent transition-colors duration-300">
                 {social.label || 'Connect'}
               </span>
