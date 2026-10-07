@@ -21,7 +21,7 @@
       "url": "https://github.com/MarioJofan24",
       "icon": "mdi:github",
       "label": "View Profile",
-      "showInContact": true
+      "showInContact": false
     },
     {
       "name": "LinkedIn",

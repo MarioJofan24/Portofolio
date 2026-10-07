@@ -15,7 +15,7 @@ import localData from '../data/home.json';
         </p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
         {localData.socials
         .filter((social) => social.showInContact && social.url && social.url !== "#" && social.url !== "")
         .map((social) => {
