@@ -17,7 +17,8 @@
       {
         "name": "Microsoft Certified: Fabric Analytics Engineer Associate",
         "issuer": "Microsoft",
-        "date": "Aug 2026"
+        "date": "Aug 2026",
+        "url": "https://learn.microsoft.com/en-us/users/mariojofan/credentials/3F9862A3491BBDB2"
       },
       {
         "name": "Get Started with Tableau - Author",
@@ -38,12 +39,14 @@
       {
         "name": "Claude Code 101",
         "issuer": "Anthropic",
-        "date": "May 2026"
+        "date": "May 2026",
+        "url": "https://verify.skilljar.com/c/ed4dn3wt37cd"
       },
       {
         "name": "Claude 101",
         "issuer": "Anthropic",
-        "date": "May 2026"
+        "date": "May 2026",
+        "url": "https://verify.skilljar.com/c/tbau9qrhsbpx"
       },
       {
         "name": "AWS Cloud Quest: Cloud Practitioner",
