@@ -3,30 +3,90 @@
     "title": "Data Engineering & Orchestration",
     "icon": "mdi:database-cog",
     "items": [
-      { "name": "Astronomer Certification for Apache Airflow 3 Fundamentals", "issuer": "Astronomer", "date": "Sep 2025" }
+      {
+        "name": "Astronomer Certification for Apache Airflow 3 Fundamentals",
+        "issuer": "Astronomer",
+        "date": "Sep 2025"
+      }
     ]
   },
   {
     "title": "Business Intelligence & Power BI",
     "icon": "mdi:chart-box",
     "items": [
-      { "name": "Microsoft Certified: Fabric Analytics Engineer Associate", "issuer": "Microsoft", "date": "Aug 2026" },
-      { "name": "Get Started with Tableau - Author", "issuer": "Tableau", "date": "Feb 2025" },
-      { "name": "Optimize a Model for Performance in Power BI", "issuer": "Microsoft", "date": "Jan 2023" }
+      {
+        "name": "Microsoft Certified: Fabric Analytics Engineer Associate",
+        "issuer": "Microsoft",
+        "date": "Aug 2026"
+      },
+      {
+        "name": "Get Started with Tableau - Author",
+        "issuer": "Tableau",
+        "date": "Feb 2025"
+      },
+      {
+        "name": "Optimize a Model for Performance in Power BI",
+        "issuer": "Microsoft",
+        "date": "Jan 2023"
+      }
     ]
   },
   {
     "title": "AI, Cloud & Developer Tools",
     "icon": "mdi:robot-outline",
     "items": [
-      { "name": "Claude Code 101", "issuer": "Anthropic", "date": "May 2026" },
-      { "name": "Claude 101", "issuer": "Anthropic", "date": "May 2026" },
-      { "name": "AWS Cloud Quest: Cloud Practitioner", "issuer": "AWS", "date": "Jan 2025" },
-      { "name": "IBM watsonx.ai Technical Essentials", "issuer": "IBM", "date": "Jan 2025" },
-      { "name": "IBM watsonx Essentials", "issuer": "IBM", "date": "Jan 2025" },
-      { "name": "Build Real World AI Applications with Gemini and Imagen", "issuer": "Google", "date": "Feb 2025" },
-      { "name": "AWS Academy Machine Learning Foundations", "issuer": "AWS", "date": "Feb 2024" },
-      { "name": "Data Processing Professional Academy - Digital Talent Scholarship", "issuer": "Kominfo", "date": "Mar 2024" }
+      {
+        "name": "Claude Code 101",
+        "issuer": "Anthropic",
+        "date": "May 2026"
+      },
+      {
+        "name": "Claude 101",
+        "issuer": "Anthropic",
+        "date": "May 2026"
+      },
+      {
+        "name": "AWS Cloud Quest: Cloud Practitioner",
+        "issuer": "AWS",
+        "date": "Jan 2025"
+      },
+      {
+        "name": "IBM watsonx.ai Technical Essentials",
+        "issuer": "IBM",
+        "date": "Jan 2025"
+      },
+      {
+        "name": "IBM watsonx Essentials",
+        "issuer": "IBM",
+        "date": "Jan 2025"
+      },
+      {
+        "name": "Build Real World AI Applications with Gemini and Imagen",
+        "issuer": "Google",
+        "date": "Feb 2025"
+      },
+      {
+        "name": "AWS Academy Machine Learning Foundations",
+        "issuer": "AWS",
+        "date": "Feb 2024"
+      },
+      {
+        "name": "Data Processing Professional Academy - Digital Talent Scholarship",
+        "issuer": "Kominfo",
+        "date": "Mar 2024"
+      }
+    ]
+  },
+  {
+    "title": "Industry Knowledge",
+    "icon": "mdi:factory",
+    "items": [
+      {
+        "name": "Chemicals and Petroleum Industry Jumpstart",
+        "issuer": "IBM",
+        "date": "Dec 2025",
+        "url": "https://www.credly.com/badges/635c7b2f-d6bc-43c7-bbd5-9dcc17f3267a"
+      }
     ]
   }
 ]

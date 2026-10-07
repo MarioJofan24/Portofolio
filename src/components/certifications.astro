@@ -14,7 +14,7 @@ import certData from '../data/certifications.json';
       </p>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
       {certData.map((group) => (
         <div class="cert-card bg-accent/5 border border-accent/10 rounded-2xl p-6 flex flex-col gap-4 hover:border-accent/40 transition-colors duration-500">
           <div class="flex items-center gap-3 text-accent">
@@ -24,7 +24,14 @@ import certData from '../data/certifications.json';
           <ul class="flex flex-col gap-4">
             {group.items.map((item) => (
               <li class="flex flex-col gap-0.5 border-l-2 border-accent/30 pl-3">
-                <span class="font-body text-sm font-semibold text-maintext">{item.name}</span>
+                {item.url ? (
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" class="font-body text-sm font-semibold text-maintext hover:text-accent transition-colors inline-flex items-start gap-1">
+                    {item.name}
+                    <Icon name="mdi:check-decagram" class="w-4 h-4 shrink-0 text-accent mt-0.5" aria-label="Verified credential" />
+                  </a>
+                ) : (
+                  <span class="font-body text-sm font-semibold text-maintext">{item.name}</span>
+                )}
                 <span class="font-mono text-xs text-subtext">{item.issuer} · {item.date}</span>
               </li>
             ))}
