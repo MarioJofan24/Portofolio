@@ -6,7 +6,8 @@
       {
         "name": "Astronomer Certification for Apache Airflow 3 Fundamentals",
         "issuer": "Astronomer",
-        "date": "Sep 2025"
+        "date": "Sep 2025",
+        "url": "https://www.credly.com/badges/0b7022f6-ce0b-4095-8e24-299f99613c97"
       }
     ]
   },
@@ -51,12 +52,14 @@
       {
         "name": "AWS Cloud Quest: Cloud Practitioner",
         "issuer": "AWS",
-        "date": "Jan 2025"
+        "date": "Jan 2025",
+        "url": "https://www.credly.com/badges/4d8597b9-fb7c-4d97-8c07-796c09c00443"
       },
       {
         "name": "IBM watsonx.ai Technical Essentials",
         "issuer": "IBM",
-        "date": "Jan 2025"
+        "date": "Jan 2025",
+        "url": "https://www.credly.com/badges/8a368c93-07d8-4604-807e-f09f5e616749"
       },
       {
         "name": "IBM watsonx Essentials",
